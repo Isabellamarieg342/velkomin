@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+<title>Contacto</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+  <a class="navbar-brand" href="index.html">VELKOMINN</a>
+  
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+        </button>
+
+  <div class="collapse navbar-collapse" 
+  id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+		
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html"> Inicio<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Hotspots</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Galería</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#">Contacto</a>
+      </li>
+		
+		
+	
+    </ul>
+
+  </div>
+</div> <!--Cierre de container-->
+</nav>
+
+</header>
+	
+	<section id="sec-velkominn2">
+		<div class="container">
+			<h1>Contáctanos</h1>
+			<p>Escríbenos para saber más sobre Islandia.<br>Hagamos juntos grandes memorias.</p>
+			
+		</div>
+	</section>
+	<section id="sec-form"> 
+	<div class="container">
+		<p></p>
+		<form name="registro" method="post" action="form.html" class="col-md-7 mx-auto">
+		
+			<div class="row">
+			<div class="form-group col-md-6 col-sm-6 col-xs-12">
+			<label>Nombre</label>
+			<input type="text" name="nombre" id="nombre" class="form-control required" maxlength="40" placeholder="Ingrese su nombre">
+		    </div>
+			
+			<div class="form-group col-md-6 col-sm-6 col-xs-12">
+			<label>Apellido</label>
+			<input type="text" name="apellido" id="apellido" class="form-control required" maxlength="40" placeholder="Ingrese su apellido">
+		    </div>
+			</div>
+			
+			<div class="form-group">
+			<label>Correo</label>
+			<input type="email" name="edad" id="edad" class="form-control" placeholder="Ingresa tu email">
+		    </div>
+			
+			<div class="form-group">
+			<label>¿Qué te gustaría saber?</label>
+			<textarea name="información" id="información" rows="6" class="form-control">
+			</textarea>
+		    </div>
+			
+			<div class="row">
+				<div class="form-group">
+				<label>País</label>
+					<select name="país" id="país" class="form-control col-md-6 col-sm-6 col-xs-12" placeholder="Ingrese su país" >
+						<option value="HND">Honduras</option>
+						<option value="GTM">Guatemala</option>
+						<option value="SLV">El Salvador</option>
+						<option value="MEX">México</option>
+						<option value="USA">Estados Unidos</option>
+					</select>
+				</div>
+				
+			<div class="form-group col-md-6 col-sm-6 col-xs-12">
+			<label>Género</label>
+				<div class="form-check" placeholder="Ingrese su género">
+				<label>
+				Masculino
+					<input type="radio"
+						   name="genero"
+						   id="masculino"
+						   value="Masculino" checked>
+			
+				</label>
+				
+				<label>
+				<div class="form-check">
+				Femenino
+					<input type="radio"
+						   name="genero"
+						   id="femenino"
+						   value="Femenino">
+				</div>
+				</label>
+				</div>
+			</div>
+			<div class="for-control">
+			<button type="submit" class="btn btn-primary">Enviar Datos</button>
+			<button type="reset" class="btn btn-light">Cancelar</button>
+			</div>
+			</div>
+		</form>
+			</div>
+	</section>
+	
+	
+	
+	
+	<footer class="footer">
+		<div class="container">
+        <h3><p>.....</p>velkominn</h3>
+        
+        
+      
+			
+		</div>
+	</footer>		
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
