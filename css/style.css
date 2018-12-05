@@ -113,28 +113,28 @@ footer{
 	text-transform:uppercase;
 	letter-spacing: 3px;
 	font-size:14px;
-
-
 }
+
 .footer p{
 	color: white;
 	font-size:94px;
-	display:inline-block
-
-	
+	display:inline-block;
+	font-family: 'Roboto', sans serif;
 }
 
+#footer_cosa{
+	padding-top: 70px;
+	color:#fff;
+	font-family: 'Roboto', sans serif;
+}
 #img_comida{
-	padding-left:30px;
+	
 	padding-bottton: 20px;
 	}
 	
 #img_musica{
 	padding-top:10px;
-	padding-left: 10px;
-	padding-left:15px;
-	height:100px;
-	align-items: center;
+
 	}
 	
 #img_mujeres{
@@ -167,8 +167,30 @@ footer{
 #sec-velkominn2 h1{
 	font-family: 'Oswald', sans serif;
 	font-size: 60px;
+	text-transform: uppercase;
 }
 #sec-velkominn2 p{
 	font-family: 'Roboto', sans serif;
 	font-size: 16px;
+}
+
+#sec-galeria{
+	background-color:#000;
+	color:#fff;
+	padding:40px 0;
+}
+
+#sec-galeria h3{
+	color: white;
+	background-color: transparent;
+	text-transform:uppercase;
+	letter-spacing: 3px;
+	font-size: 30px;	
+	text-align: left;
+}
+
+#sec-galeria p{
+	color: white;
+	font-size:94px;
+	display:inline-block
 }
